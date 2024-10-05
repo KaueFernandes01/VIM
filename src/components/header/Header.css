@@ -1,0 +1,55 @@
+header{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
+  }
+  nav {
+    background-color: #4A6D49;
+    width: 100%;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    padding: 30px;
+  }
+  nav img{
+    display: none;
+  }
+  nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    text-decoration: none;
+    color:white;
+  }
+  nav ul li:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px){
+  nav img{
+  width: 70px;
+  display: block;
+  padding: 10px;
+}
+  nav ul{
+    display: none;
+    list-style: none;
+    justify-content: right;
+    padding: 20px;
+}
+  nav ul.show{
+    display: block;
+}
+  nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 0px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+  nav ul li:hover{
+    cursor: pointer;
+}
+}
